@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
-
+//npm install axios
 const AddCatAxios=()=> {
   const query="cat"
   const apikey="563492ad6f91700001000001a96d6ebb374043e4b223c47aabb38a78";
