@@ -1,5 +1,6 @@
 import Dogs from "../components/dogs";
 import AddCat from "../components/addCat";
+//import AddCatAxios from "../components/addCatAxios";
 import { useState } from "react";
 
 const ApiConection=({data, dataText})=>{
@@ -43,6 +44,7 @@ export async function getServerSideProps() { //or getStaticProps
     const apikey="563492ad6f91700001000001a96d6ebb374043e4b223c47aabb38a78";
     const url = "https://api.pexels.com/v1/search/?query=dog"; //get
     const res = await fetch( url, {
+        //method:'GET',
         headers: {Authorization: apikey}})
 
     const data = await res.json();   //.json() obtiene data en forma de objeto y .text() obtiene la data en texto

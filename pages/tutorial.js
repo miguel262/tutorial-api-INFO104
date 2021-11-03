@@ -1,7 +1,7 @@
 //import Tutorial2 from "./tutorial2";
 import Link from 'next/link'
 
-const Tutorial1=()=> {
+const Tutorial=()=> {
     
     return (
       <>
@@ -53,4 +53,4 @@ const Tutorial1=()=> {
       </>
   )
 }
-export default Tutorial1;
+export default Tutorial;
